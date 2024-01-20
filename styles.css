@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#FEFAE0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.price-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.price-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.price-card:hover {
+    transform: translateY(-10px);
+}
+
+.price-card .price {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.price-card .title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.price-card .features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.price-card .features li {
+    margin-bottom: 0.5rem;
+}
+
+.price-card .button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.price-card .button:hover {
+    background-color: #0056b3;
+}
+
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Styling the navigation bar */
+  nav {
+    background-color: #333; /* Change this to your desired background color */
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white; /* Change this to your desired text color */
+  }
+  
+  nav a:hover {
+    background-color: #555; /* Change this to your desired hover background color */
+  }
+  
+  /* Centering the navigation links */
+  nav ul {
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between links */
+  }
+  
+  /* Making the navigation bar fixed at the top */
+  nav {
+    
+    top: 0;
+    width: 100%;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .card {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Login Page Styles */
+  
+  .card-login {
+    border: 2px solid #007bff; /* Border color for login card */
+  }
+  
+  .card-login .card-title {
+    color: #007bff; /* Title color for login card */
+  }
+  
+  .btn-login {
+    background-color: #007bff; /* Primary blue button color */
+  }
+  
+  .btn-login:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Register Page Styles */
+  
+  .card-register {
+    border: 2px solid #28a745; /* Border color for register card */
+  }
+  
+  .card-register .card-title {
+    color: #28a745; /* Title color for register card */
+  }
+  
+  .btn-register {
+    background-color: #28a745; /* Primary green button color */
+  }
+  
+  .btn-register:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+
+  .button {
+    background-color:gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=text],input[type=password],input[type=number],input[type=email],
+  select,input[type=date],textarea
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label
+  {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .v-card {
+        width: 45%;
+        margin: 30px auto;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border-radius: 8px;
+   }
+  .v-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
